@@ -1,0 +1,14 @@
+#Notas capitulo_4
+
+-- O que é REST
+-- REST vcs SOAP
+-- Protocolo HTTP
+-- status HTTP: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
+-- status HTTP: https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml
+-- API Reflection
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+#Notas capitulo_8
+
+-- ResposeStatusException
+-- IETF
+	-- vnd.error
+	-- json API
+	-- problems details for http api (RFC 7807)
+	-- https://datatracker.ietf.org/doc/html/rfc7807
+
+-- convenoes criacoa de banco
+-- apache commons lang3
+
+
+	

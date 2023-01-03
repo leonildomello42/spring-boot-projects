@@ -1,0 +1,6 @@
+#Notas capitulo_6
+
+-- Eager Loading - toOne
+-- Lazy Loading - toMany
+-- https://pt.stackoverflow.com/questions/6441/qual-%C3%A9-a-diferen%C3%A7a-entre-inner-join-e-outer-join
+--

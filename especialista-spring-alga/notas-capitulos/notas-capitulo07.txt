@@ -1,0 +1,17 @@
+#Notas capitulo_7
+
+-- ab - apache http server (ab -n 10000 -c 20 localhost:8080/restaurantes/) 
+-- Migrações com Flyway
+
+
+----
+
+Para fazer um dump (backup dos dados) do database "algafood" no MySQL, use o seguinte comando:
+mysqldump --host localhost --user root --password --databases algafood > dump.sql
+
+Para criar o database "algafood" a partir do dump, execute o comando:
+mysql --host localhost --user root --password < dump.sql
+
+-----
+
+-- ./mvnw flyway:repair -Dflyway.configFiles=src/main/localdoarquivo/flyway.properties (configurar: flyway.properties)

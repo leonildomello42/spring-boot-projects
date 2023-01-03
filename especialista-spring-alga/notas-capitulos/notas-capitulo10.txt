@@ -1,0 +1,17 @@
+#Notas capitulo_10
+
+-- Testes de integração
+-- Testes de API
+-- JUnit, REST Assured,
+-- Convencoes nomes métodos de teste
+-- biblioteca REST Assured
+
+--- aula06_rodando_testes_pelo_maven
+
+-- ./mvnw test
+-- ./mvnw clean package
+
+-- Maven Surefire
+
+
+

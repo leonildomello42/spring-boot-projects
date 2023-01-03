@@ -1,0 +1,7 @@
+#Notas capitulo_1
+
+-- O que é uma API
+-- REST API
+-- Web Service
+-- Protocolo HTTP / HTTPS
+-- Java 11

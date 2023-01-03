@@ -1,0 +1,17 @@
+#Notas capitulo_2
+
+-- Spring framework / Spring boot
+-- Spring / modulos / projects sring
+
+-- Spring vc JEE
+
+-- Especificações: Jakarta EE
+-- Especificações: Java EE
+-- Especificações: Spring boot / Spring MVC
+-- Maven
+-- S.O.L.I.D
+-- DevTools
+-- application.properties : https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html
+-- Anotações (Annotation)
+-- Enumerações (Enum) 
+--
