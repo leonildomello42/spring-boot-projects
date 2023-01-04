@@ -11,7 +11,7 @@ public class NotificadorEmailMock implements Notificador{
 
     public NotificadorEmailMock(){
 
-        System.out.println("Notificador mock");
+        System.out.println("Notificador MOCK");
     }
 
     @Override
