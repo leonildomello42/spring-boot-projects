@@ -6,14 +6,12 @@ import lombok.EqualsAndHashCode;
 import javax.persistence.*;
 import java.io.Serial;
 import java.io.Serializable;
-import java.math.BigDecimal;
-import java.util.Objects;
 
 @Entity
+@Table(schema = "algafood", name = "cozinha")
 @Data
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-@Table(schema = "algafood", name = "restaurante")
-public class Restaurante implements Serializable {
+public class Cozinha implements Serializable {
 
     @Serial
     private static final long serialVersionUID = 1L;
@@ -23,13 +21,7 @@ public class Restaurante implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "nome", length = 255, nullable = false)
     private String nome;
 
-    @Column(name = "taxa_frete")
-    private BigDecimal taxaFrete;
-
-    //Muitos restaurantes tem uma cozinha
-    @ManyToOne
-    @JoinColumn(name = "cozinha_id")
-    private Cozinha cozinha;
 }

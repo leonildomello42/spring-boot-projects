@@ -25,11 +25,11 @@ public class Restaurante implements Serializable {
 
     private String nome;
 
-    @Column(name = "taxa_frete")
+    @Column(name = "taxa_frete", nullable = false)
     private BigDecimal taxaFrete;
 
     //Muitos restaurantes tem uma cozinha
     @ManyToOne
-    @JoinColumn(name = "cozinha_id")
+    @JoinColumn(name = "cozinha_id", nullable = false)
     private Cozinha cozinha;
 }

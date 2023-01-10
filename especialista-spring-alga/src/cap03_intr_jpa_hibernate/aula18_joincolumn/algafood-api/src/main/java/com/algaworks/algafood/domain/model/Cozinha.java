@@ -25,4 +25,3 @@ public class Cozinha implements Serializable {
     private String name;
 
 }
-                                        
