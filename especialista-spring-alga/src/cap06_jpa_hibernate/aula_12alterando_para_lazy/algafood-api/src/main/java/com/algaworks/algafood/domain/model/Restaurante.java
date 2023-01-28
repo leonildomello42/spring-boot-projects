@@ -37,8 +37,8 @@ public class Restaurante implements Serializable {
     //tudo que termina com ToOne - usa estrategia Eager Loading
 
 //    @JsonIgnore
-//    @JsonIgnoreProperties("hibernateLazyInitializer")
-    @ManyToOne(fetch = FetchType.EAGER)
+    @JsonIgnoreProperties("hibernateLazyInitializer")
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "cozinha_id", nullable = false)
     private Cozinha cozinha;
 
