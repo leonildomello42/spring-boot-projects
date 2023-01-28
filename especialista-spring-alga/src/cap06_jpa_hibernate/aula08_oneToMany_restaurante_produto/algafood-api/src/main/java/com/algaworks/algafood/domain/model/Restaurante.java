@@ -54,8 +54,7 @@ public class Restaurante implements Serializable {
     private LocalDateTime dataAtualizacao;
 
     @JsonIgnore
-    //mappedBy = "restaurante": qual o nome da propriedade inversa, no caso em produto, temos restaurante
-    @OneToMany(mappedBy = "restaurante") 
+    @OneToMany(mappedBy = "restaurante")
     List<Produto> produto = new ArrayList<>();
 
     @JsonIgnore
