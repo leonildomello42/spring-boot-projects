@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import javax.persistence.*;
+import java.io.Serial;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +18,7 @@ import java.util.List;
 @JsonRootName("Cozinha") //fica gastronomia no xml
 public class Cozinha implements Serializable {
 
+    @Serial
     private static final long serialVersionUID = 1L;
 
     @EqualsAndHashCode.Include
