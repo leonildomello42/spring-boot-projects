@@ -91,7 +91,7 @@ public class CozinhaController {
 //        }
 //    }
 
-    @ResponseStatus(HttpStatus.NOT_FOUND)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping("/{cozinhaId}")
     public void remover(@PathVariable Long cozinhaId) {
 
